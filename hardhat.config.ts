@@ -10,7 +10,7 @@ const config: HardhatUserConfig = {
   defaultNetwork: "sepolia",
 
   etherscan: {
-   apiKey: 'IR3Q2SESEHHDN7DJBRF5IQCZEJMQX9X4RS',
+   apiKey: `${vars.get('ETHERSCAN_API_KEY')}`,
   },
 
   networks: {
