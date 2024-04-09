@@ -3,7 +3,7 @@
 // A Soulbound NFT the owner can burn.
 // Anyone can mint.
 // Price is 0.02 ETH
-// Max supply is 100.
+// Max supply and mint price are public, modifiable by the owner.
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
